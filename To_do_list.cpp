@@ -34,7 +34,9 @@ void markTaskAsCompleted(std::vector<Task>& tasks, int taskNumber)
 	{
         tasks[taskNumber - 1].completed = true;
         std::cout << "Task " << taskNumber << " marked as completed." << std::endl;
-    } else {
+    } 
+    else
+    {
         std::cout << "Invalid task number." << std::endl;
     }
 }
